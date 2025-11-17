@@ -149,7 +149,6 @@
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -261,7 +260,7 @@ p {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -380,11 +379,17 @@ p {
     display: flex;
     align-items: baseline;
 }
-.footer-container {
+/*.footer-container {
     margin-right: 120px;
     display: flex;
     align-items: baseline;
     margin:0 auto;
+}*/
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+    gap: 120px;
 }
 .footer-accent{
     color:#F4F4FD;
