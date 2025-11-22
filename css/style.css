@@ -673,7 +673,7 @@ fill-opacity: ;
     width: 360px;
     height: 40px;
 }*/
-.modal-input:focus {
+.modal-input-wrap:focus {
     border-color: #4d5ae5;
 }
 .modal-input-icon {
@@ -763,6 +763,7 @@ fill: #4D5AE5;
     gap: 8px;  
     margin-bottom: 16px
 }
+
 .form-button{
     align-self: flex-start;
     border: 1px solid #000;

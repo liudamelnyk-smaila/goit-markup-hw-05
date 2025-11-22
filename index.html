@@ -412,12 +412,13 @@ botton
         </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
+  
 <!--Modal contact form-->
-        <form class="contact-form">
+        <div class="contact-form">
 <!--modal name-->
 <div class="modal-field">
   <label for="user-name" class="modal-label">Name</label>
-  <div class="modal-input">
+  <div class="modal-input-wrap">
     <input type="text" class="form-label" id="user-name" name="user-name">
     <svg class="modal-input-icon" width="18" height="24">
       <use href="./images/icons.svg#icon-person"></use>
@@ -427,7 +428,7 @@ botton
 <!--modal phone-->
 <div class="modal-field">
   <label for="user-phone" class="modal-label">Phone</label>
-  <div class="modal-input">
+  <div class="modal-input-wrap">
     <input type="tel" class="form-label" id="user-phone" name="user-phone">
     <svg class="modal-input-icon" width="18" height="24">
       <use href="./images/icons.svg#icon-phone"></use>
@@ -437,30 +438,32 @@ botton
 <!--modal email-->
 <div class="modal-field">
   <label for="user-email" class="modal-label">Email</label>
-  <div class="modal-input">
+  <div class="modal-input-wrap">
     <input type="email" class="form-label" id="user-email" name="user-email">
     <svg class="modal-input-icon" width="18" height="24">
       <use href="./images/icons.svg#icon-email"></use>
     </svg>
   </div>
 </div>
+
 <!--modal comment-->
 <div class="form-field">
-    <label class="modal-label">Comment
-    <input class="form-label" type="text" name="comment">
-</label>
+    <label class="modal-label" for="comment">Comment
+    </label>
     <textarea class="form-label-area" id="user-comment" name="user-comment" placeholder="Text input">
     </textarea>  
 </div>
+        </div>
 </form>
-<label class="form-checkbox">
-    <input type="checkbox" name="terms" required>
 
-    <span> I accept the terms and conditions of the
+<!--Modal chekbox-->
+<label class="form-checkbox">
+    <input class="form-checkbox-box" type="checkbox" name="user-privacy" id="user-privacy" value="true"  required>
+    <p> I accept the terms and conditions of the
     <a href="" target="_blank">Privacy Policy</a>
-    </span>
+    </p>
 </label>
-      <button type="button" class="form-button">Send</button>
+      <button ype="submit" class="form-button" t>Send</button>
   </div>
 </div>
     </body>
