@@ -731,11 +731,12 @@ fill-opacity: ;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);    
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
     letter-spacing: 0.04em;
     margin-right: auto;
     margin-left: auto;
+
 }
 .form-button:hover,
 .form-button:focus {    
