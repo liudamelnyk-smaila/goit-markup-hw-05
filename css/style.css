@@ -663,7 +663,6 @@ p {
 }
 /*Checkbox*/
 .checkbox-label {
-  display: flex;
   gap: 8px;
   align-items: center;
   font-size: 12px;
