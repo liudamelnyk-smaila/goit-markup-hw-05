@@ -475,9 +475,7 @@ p {
     color: #ffffff;
 }
 .footer-form{
-    display: flex; 
-}
-.footer-label{
+    display: flex;
     gap: 24px; 
 }
 .footer-input{
@@ -493,8 +491,8 @@ p {
     border-radius: 4px;
     color: #ffffff;
 }
-.footer-input:placeholder{
-    color #ffffff;
+.footer-input::placeholder{
+    color: #ffffff;
 }
 .footer-button-form{
     display: flex; 
